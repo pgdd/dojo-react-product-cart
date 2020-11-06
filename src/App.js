@@ -10,7 +10,13 @@ const initialProductList = [
 function App () {
   return (
     <div className='App'>
-      <h1>Ma commande</h1>
+      <table>
+      <thead>
+        <td>
+        <th>{initialProductList.name}</th>
+        </td>
+      </thead>
+      </table>
     </div>
   );
 }
